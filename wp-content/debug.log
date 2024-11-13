@@ -1,0 +1,227 @@
+[07-Nov-2024 17:40:00 UTC] PHP Parse error:  syntax error, unexpected token "?", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/footer.php on line 9
+[07-Nov-2024 17:41:32 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_footer_widgets" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/widgets.php(1870): do_action('widgets_init')
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#4 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-settings.php(700): do_action('init')
+#7 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-config.php(111): require_once('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-load.php(50): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(13): require_once('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#11 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php on line 324
+[07-Nov-2024 17:42:11 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[07-Nov-2024 17:45:47 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[07-Nov-2024 17:46:37 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[07-Nov-2024 17:46:46 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[07-Nov-2024 17:47:40 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[07-Nov-2024 17:49:14 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[07-Nov-2024 18:48:55 UTC] PHP Warning:  require(/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/inc/custom-header.php): Failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 178
+[07-Nov-2024 18:48:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/inc/custom-header.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php:178
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-settings.php(668): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-config.php(111): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-load.php(50): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(13): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 178
+[07-Nov-2024 18:49:02 UTC] PHP Warning:  require(/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/inc/custom-header.php): Failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 178
+[07-Nov-2024 18:49:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/inc/custom-header.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php:178
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-settings.php(668): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-config.php(111): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-load.php(50): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-admin/admin-ajax.php(22): require_once('/Applications/X...')
+#4 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 178
+[07-Nov-2024 18:49:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[07-Nov-2024 18:49:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[07-Nov-2024 19:35:32 UTC] PHP Parse error:  Unterminated comment starting line 219 in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 219
+[08-Nov-2024 05:22:17 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[09-Nov-2024 11:58:53 UTC] Automatic updates starting...
+[09-Nov-2024 11:58:54 UTC] Automatic updates complete.
+[12-Nov-2024 11:32:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wpdb.php on line 1982
+[12-Nov-2024 11:44:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wpdb.php on line 1982
+[12-Nov-2024 12:02:23 UTC] Automatic updates starting...
+[12-Nov-2024 12:02:24 UTC]   Automatic plugin updates starting...
+[12-Nov-2024 12:02:24 UTC]   Automatic plugin updates complete.
+[12-Nov-2024 12:02:24 UTC] Automatic updates complete.
+[12-Nov-2024 12:28:24 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[12-Nov-2024 12:35:47 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[12-Nov-2024 12:36:10 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[12-Nov-2024 12:37:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_block_editor() in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php:18
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(324): my_enqueue_scripts('widgets.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'widgets.php')
+#4 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-admin/widgets-form-blocks.php(70): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-admin/widgets.php(32): require('/Applications/X...')
+#6 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 18
+[12-Nov-2024 12:37:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[12-Nov-2024 12:37:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[12-Nov-2024 12:37:42 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[12-Nov-2024 12:40:38 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[12-Nov-2024 12:42:00 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[12-Nov-2024 12:42:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aws_get_search_form() in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/header.php:84
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template.php(810): require_once()
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template.php(745): load_template('/Applications/X...', true, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/front-page.php(3): get_header()
+#4 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template-loader.php(106): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(19): require_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/header.php on line 84
+[12-Nov-2024 12:42:57 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[12-Nov-2024 12:43:38 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[12-Nov-2024 12:44:47 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6085
+[12-Nov-2024 14:19:36 UTC] PHP Parse error:  syntax error, unexpected identifier "TO", expecting ")" in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 175
+[12-Nov-2024 14:49:08 UTC] PHP Warning:  Attempt to read property "ID" on null in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 303
+[12-Nov-2024 14:49:08 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 307
+[12-Nov-2024 14:49:08 UTC] PHP Warning:  Attempt to read property "ID" on null in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 303
+[12-Nov-2024 14:49:08 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 307
+[12-Nov-2024 14:49:14 UTC] PHP Warning:  Attempt to read property "ID" on null in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 303
+[12-Nov-2024 14:49:14 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 307
+[12-Nov-2024 14:50:08 UTC] PHP Warning:  Attempt to read property "ID" on null in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 296
+[12-Nov-2024 14:50:08 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 300
+[12-Nov-2024 19:21:05 UTC] Automatic updates starting...
+[12-Nov-2024 19:21:06 UTC] Automatic updates complete.
+[13-Nov-2024 09:18:22 UTC] Automatic updates starting...
+[13-Nov-2024 09:18:22 UTC]   Automatic plugin updates starting...
+[13-Nov-2024 09:18:22 UTC]   Automatic plugin updates complete.
+[13-Nov-2024 09:18:22 UTC] Automatic updates complete.
+[13-Nov-2024 09:37:00 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 09:37:01 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 09:38:35 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 09:38:36 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 09:38:46 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 09:38:46 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 09:39:53 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[13-Nov-2024 09:39:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/advanced-woo-search/includes/class-aws-helpers.php:849
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/advanced-woo-search/includes/class-aws-markup.php(87): AWS_Helpers::get_current_page_id()
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/advanced-woo-search/advanced-woo-search.php(156): AWS_Markup->markup()
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/advanced-woo-search/advanced-woo-search.php(369): AWS_Main->markup(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/header.php(58): aws_get_search_form(true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template.php(810): require_once('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template.php(745): load_template('/Applications/X...', true, Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/front-page.php(3): get_header()
+#8 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template-loader.php(106): include('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(19): require_once('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#11 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/advanced-woo-search/includes/class-aws-helpers.php on line 849
+[13-Nov-2024 09:40:18 UTC] PHP Warning:  file_get_contents(/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/woocommerce.php): Failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6893
+[13-Nov-2024 09:40:19 UTC] PHP Warning:  file_get_contents(/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/woocommerce.php): Failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6893
+[13-Nov-2024 10:18:25 UTC] Automatic updates starting...
+[13-Nov-2024 10:18:25 UTC] Automatic updates complete.
+[13-Nov-2024 11:23:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_sku() on string in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/woocommerce.php:5
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/woocommerce.php on line 5
+[13-Nov-2024 11:25:47 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/templates/single-product/meta.php on line 22
+[13-Nov-2024 11:27:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/templates/single-product/meta.php on line 21
+[13-Nov-2024 12:17:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_subcategory_thumbnail" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/templates/content-product-cat.php(36): do_action('woocommerce_bef...', Object(WP_Term))
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2687): wc_get_template('content-product...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2578): woocommerce_output_product_categories(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(324): woocommerce_maybe_show_product_subcategories('<ul class="prod...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/plugin.php(205): WP_Hook->apply_filters('<ul class="prod...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1139): apply_filters('woocommerce_pro...', '<ul class="prod...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(654): woocommerce_product_loop_start()
+#10 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#11 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(600): WC_Shortcode_Products->get_content()
+#12 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(324): WC_Template_Loader::unsupported_theme_shop_content_filter('')
+#13 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/post-template.php(256): apply_filters('the_content', '')
+#15 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/template-parts/content-page.php(21): the_content()
+#16 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template.php(812): require('/Applications/X...')
+#17 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template.php(745): load_template('/Applications/X...', false, Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#19 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/page.php(13): get_template_part('template-parts/...', 'page')
+#20 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template-loader.php(106): include('/Applications/X...')
+#21 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(19): require_once('/Applications/X...')
+#22 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#23 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php on line 324
+[13-Nov-2024 13:07:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_theme_style_enqueue_styles" not found or invalid function name in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/header.php(10): wp_head()
+#8 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template.php(810): require_once('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template.php(745): load_template('/Applications/X...', true, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/page.php(4): get_header()
+#12 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template-loader.php(106): include('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(19): require_once('/Applications/X...')
+#14 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#15 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/class-wp-hook.php on line 324
+[13-Nov-2024 13:09:28 UTC] PHP Fatal error:  Cannot redeclare my_theme_enqueue_styles() (previously declared in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php:292) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 298
+[13-Nov-2024 13:09:28 UTC] PHP Notice:  Funktsiooni _load_textdomain_just_in_time väljakutsel tekkis <strong>viga</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Lisainfo: <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">WordPressi silumine</a>. (See teade lisati versioonis 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 13:09:44 UTC] PHP Fatal error:  Cannot redeclare your_theme_child_enqueue_styles() (previously declared in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php:292) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 298
+[13-Nov-2024 13:09:44 UTC] PHP Notice:  Funktsiooni _load_textdomain_just_in_time väljakutsel tekkis <strong>viga</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Lisainfo: <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">WordPressi silumine</a>. (See teade lisati versioonis 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 13:40:57 UTC] PHP Warning:  require(/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/inc/custom-header.php): Failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 187
+[13-Nov-2024 13:40:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/inc/custom-header.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php:187
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-settings.php(672): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-config.php(111): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-load.php(50): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(13): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 187
+[13-Nov-2024 13:40:57 UTC] PHP Notice:  Funktsiooni _load_textdomain_just_in_time väljakutsel tekkis <strong>viga</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Lisainfo: <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">WordPressi silumine</a>. (See teade lisati versioonis 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 13:42:36 UTC] PHP Warning:  require(/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/inc/custom-header.php): Failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 187
+[13-Nov-2024 13:42:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/inc/custom-header.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php:187
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-settings.php(672): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-config.php(111): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-load.php(50): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(13): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/functions.php on line 187
+[13-Nov-2024 13:42:36 UTC] PHP Notice:  Funktsiooni _load_textdomain_just_in_time väljakutsel tekkis <strong>viga</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Lisainfo: <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">WordPressi silumine</a>. (See teade lisati versioonis 6.7.0.) in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/functions.php on line 6114
+[13-Nov-2024 14:48:30 UTC] PHP Warning:  Undefined array key "in_same_term" in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/link-template.php on line 2801
+[13-Nov-2024 14:48:30 UTC] PHP Warning:  Undefined array key "excluded_terms" in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/link-template.php on line 2802
+[13-Nov-2024 14:48:30 UTC] PHP Warning:  Undefined array key "taxonomy" in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/link-template.php on line 2803
+[13-Nov-2024 14:48:30 UTC] PHP Warning:  Undefined array key "in_same_term" in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/link-template.php on line 2809
+[13-Nov-2024 14:48:30 UTC] PHP Warning:  Undefined array key "excluded_terms" in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/link-template.php on line 2810
+[13-Nov-2024 14:48:30 UTC] PHP Warning:  Undefined array key "taxonomy" in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/link-template.php on line 2811
+[13-Nov-2024 14:50:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_navigation() in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/single.php:21
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/single.php on line 21
+[13-Nov-2024 14:50:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_navigation() in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/single.php:21
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/shop/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/shop/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/shop/wp-content/themes/my-theme/single.php on line 21
